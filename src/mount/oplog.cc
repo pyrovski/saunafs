@@ -21,6 +21,8 @@
 #include "common/platform.h"
 #include "mount/oplog.h"
 
+#include <condition_variable>
+
 #include <errno.h>
 #include <pthread.h>
 #include <stdarg.h>
