@@ -18,6 +18,8 @@
 
 #pragma once
 
+#include <thread>
+
 #include "common/platform.h"
 
 #include "chunkserver-common/chunk_signature.h"
