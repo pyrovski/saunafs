@@ -1,5 +1,7 @@
 include(DownloadExternal)
 
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_SOURCE_DIR}/vcpkg_installed/x64-linux")
+
 # Find GoogleTest
 if(ENABLE_TESTS)
   enable_testing()
